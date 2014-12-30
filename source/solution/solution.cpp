@@ -1,9 +1,7 @@
 // @snip <./solution-io.cpp>
 namespace solution {
+
   struct Solution: SolutionIO {
-    //
-    // Implement here
-    //
 
     Solution() {}
 
@@ -24,4 +22,5 @@ namespace solution {
     }
     /* }}} */
   };
+
 }

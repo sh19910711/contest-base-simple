@@ -1,4 +1,3 @@
-#define __THIS_IS_CPP11__
 /* default headers {{{ */
 #include <iostream>
 #include <sstream>
@@ -14,7 +13,7 @@
 #include <cstdio>
 #include <cmath>
 
-#ifdef __THIS_IS_CPP11__
+#if __cplusplus >= 201103L
 #include <memory>
 #include <array>
 #endif

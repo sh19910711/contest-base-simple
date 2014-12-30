@@ -1,12 +1,18 @@
-struct SolutionIO {
-  Input in;
-  Output out;
+namespace solution {
 
-  template <class Stream> bool input( Stream& s ) {
-    return false;
-  }
+  struct SolutionIO {
 
-  template <class Stream> bool output( Stream& s ) {
-    return s;
-  }
-};
+    Input in;
+    Output out;
+
+    template <class Stream> bool input( Stream& s ) {
+      return false;
+    }
+
+    template <class Stream> bool output( Stream& s ) {
+      return s;
+    }
+
+  };
+
+}
