@@ -1,4 +1,4 @@
-// @snip <sh19910711/contest-base-simple:solution/solution-io.cpp>
+// @snip <./solution-io.cpp>
 struct Solution: SolutionIO {
   //
   // Implement here
