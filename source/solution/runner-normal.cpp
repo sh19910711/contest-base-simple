@@ -1,5 +1,6 @@
 /* Runner Class {{{ */
 namespace solution {
+
   struct Runner {
     static int run() {
       bool f = false;
@@ -11,6 +12,7 @@ namespace solution {
       return 0;
     }
   };
+
 }
 /* }}} */
 

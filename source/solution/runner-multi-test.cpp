@@ -1,6 +1,8 @@
 /* Runner Class {{{ */
 namespace solution {
+
   struct Runner {
+
     static int run() {
       int tests;
       std::cin >> tests;
@@ -11,7 +13,9 @@ namespace solution {
       };
       return 0;
     }
+
   };
+
 }
 /* }}} */
 
