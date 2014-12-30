@@ -1,5 +1,9 @@
-struct Input {
-};
+namespace solution {
 
-struct Output {
-};
+  struct Input {
+  };
+
+  struct Output {
+  };
+
+}
